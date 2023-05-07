@@ -1,0 +1,64 @@
+Car: Mercedes Benz 300 SL Roadster
+Handling: 7
+Speed: 6
+Acceleration: 3
+Part Colors:
+Body Colors-
+- Light Yellow (Price: £190)
+- Mint Green (Price: £200)
+- Cacti Green (Price: £230)
+- Sky Blue (Price: £275)
+- Blood Red (Price: £350)
+- Lavender Purple (Price: £390)
+- Rose Pink (Price: £420)
+- Mint Green (Price: £360)
+Interior Colors-
+- Rose Pink (Price: £405)
+- Blood Red (Price: £560)
+- Cacti Green (Price: £670)
+Windows Colors-
+- Black (Price: £350)
+- Grey (Price: £405)
+Wheels Colors-
+- Sky Blue (Price: £350)
+- Blood Red (Price: £390)
+Lights Colors-
+- Light Yellow (Price: £190)
+- Blood Red (Price: £390)
+- Sky Blue (Price: £275)
+Misc Colors-
+- Sky Blue (Price: £350)
+- Blood Red (Price: £390)
+
+Car: Mercedes Benz 300 SL
+Handling: 3
+Speed: 9
+Acceleration: 2
+Part Colors:
+Body Colors-
+- Light Yellow (Price: £190)
+- Mint Green (Price: £200)
+- Cacti Green (Price: £230)
+- Sky Blue (Price: £275)
+- Blood Red (Price: £350)
+- Lavender Purple (Price: £390)
+- Rose Pink (Price: £420)
+- Mint Green (Price: £360)
+Interior Colors-
+- Rose Pink (Price: £405)
+- Blood Red (Price: £560)
+- Cacti Green (Price: £670)
+Windows Colors-
+- Black (Price: £350)
+- Grey (Price: £405)
+Wheels Colors-
+- Sky Blue (Price: £350)
+- Blood Red (Price: £390)
+Lights Colors-
+- Light Yellow (Price: £190)
+- Blood Red (Price: £390)
+- Sky Blue (Price: £275)
+Misc Colors-
+- Sky Blue (Price: £350)
+- Blood Red (Price: £390)
+
