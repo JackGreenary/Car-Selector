@@ -177,9 +177,9 @@ public class CustomisationManager : MonoBehaviour
             case MenuLevel.Cars:
                 // Move to car list
                 newPos = carList.transform.position;
-                iTween.MoveTo(carList, new Vector3(newPos.x, newPos.y + 400, newPos.z), .25f);
+                iTween.MoveTo(carList, new Vector3(newPos.x, moveTo.transform.position.y, newPos.z), .25f);
                 newPos = partList.transform.position;
-                iTween.MoveTo(partList, new Vector3(newPos.x + 1650, newPos.y, newPos.z), .25f);
+                iTween.MoveTo(partList, new Vector3(newPos.x + 1600, newPos.y, newPos.z), .25f);
                 FindAnyObjectByType<CameraManager>().ResetCamera();
 
                 // When the car is deselected reset the cost value
@@ -203,21 +203,21 @@ public class CustomisationManager : MonoBehaviour
                     newPos = carList.transform.position;
                     iTween.MoveTo(carList, new Vector3(newPos.x, newPos.y - 400, newPos.z), .25f);
                     newPos = partList.transform.position;
-                    iTween.MoveTo(partList, new Vector3(newPos.x - 1650, newPos.y, newPos.z), .25f);
+                    iTween.MoveTo(partList, new Vector3(moveTo.transform.position.x, newPos.y, newPos.z), .25f);
                 }
                 else
                 {
                     // From the colour list
                     newPos = partList.transform.position;
-                    iTween.MoveTo(partList, new Vector3(newPos.x, newPos.y + 200, newPos.z), .25f);
+                    iTween.MoveTo(partList, new Vector3(newPos.x, moveTo.transform.position.y, newPos.z), .25f);
                     newPos = colourList.transform.position;
-                    iTween.MoveTo(colourList, new Vector3(newPos.x + 1650, newPos.y, newPos.z), .25f);
+                    iTween.MoveTo(colourList, new Vector3(newPos.x + 1600, newPos.y, newPos.z), .25f);
                 }
                 break;
             case MenuLevel.Colours:
                 // Move to colour list
                 newPos = partList.transform.position;
-                iTween.MoveTo(partList, new Vector3(newPos.x, newPos.y - 200, newPos.z), .25f);
+                iTween.MoveTo(partList, new Vector3(newPos.x, newPos.y - 400, newPos.z), .25f);
                 newPos = colourList.transform.position;
                 iTween.MoveTo(colourList, new Vector3(moveTo.transform.position.x, newPos.y, newPos.z), .25f);
                 break;
